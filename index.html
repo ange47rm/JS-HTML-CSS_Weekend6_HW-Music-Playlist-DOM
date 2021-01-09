@@ -12,7 +12,7 @@
 
 <body>
     <header class='box'>
-    <h1>Music Playlist</h1>
+    <h1>MUSIC PLAYLIST</h1>
     <h2>Create your own playlist</h2>
     <h3>Fill in the fields and click the ADD button to add a song</h3>
     </header>
@@ -24,13 +24,16 @@
         <label for='songtitle'>Song Title
         <input type='text' id='songtitle' name='songtitle' placeholder="Type song title here" required></label>
 
-        <input type='submit' id='add-button' value='ADD'>
+        <input type='submit' value='ADD'>
     </form>
 
-    <ol class='box'>
-        <li>The Notorious BIG - Suicidal Thoughts</li>
-        <li>The Midnight - Los Angeles</li>
-    </ol>
-
+    <section>
+        <ol class='box'>
+            <li>The Notorious BIG - Suicidal Thoughts</li>
+            <li>The Midnight - Los Angeles</li>
+            <!-- NEW ITEM GOES HERE -->
+        </ol>
+        <button class='box' id='delete-button'>DELETE PLAYLIST</button>
+    </section>
 </body>
 </html>
