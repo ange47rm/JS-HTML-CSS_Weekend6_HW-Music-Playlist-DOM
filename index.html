@@ -17,12 +17,12 @@
     <h3>Fill in the fields and click the ADD button to add a song</h3>
     </header>
 
-    <form class='box'>
+    <form class='box' id='new-song-form'>
         <label for='author'>Artist/Band
-        <input type='text' id="author" name='author' placeholder="Type artist/band here"></label>
+        <input type='text' id="author" name='author' placeholder="Type artist/band here" required></label>
 
         <label for='songtitle'>Song Title
-        <input type='text' id='songtitle' name='songtitle' placeholder="Type song title here"></label>
+        <input type='text' id='songtitle' name='songtitle' placeholder="Type song title here" required></label>
 
         <input type='submit' id='add-button' value='ADD'>
     </form>
