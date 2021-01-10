@@ -1,14 +1,17 @@
 body {
-
-    font-size: larger;
-    color: white;
+    text-align: center;
     background-image: url('Images/Background.png');
     background-size: 1920px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Potta One', cursive;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
+}
+
+header {
+    box-shadow: 5px 5px 5px;
+    margin: 10px 10px 50px 10px;
 }
 
 form {
@@ -18,31 +21,26 @@ form {
 }
 
 ol {
-    list-style: decimal-leading-zero;
+    list-style: none;
 }
 
 input, button {
-    font-family: 'Work Sans', sans-serif;
-    max-width: 150px;
-    text-align: center;
+    font-family: 'Potta One', cursive;
 }
 
 li {
     margin: 10px;
 }
 
-.centre {
-    text-align: center;
+.box {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: 10px solid hotpink;
 }
 
 #multiple-choice {
     text-align:left;
     display: flex;
     flex-direction: column;
-}
-
-#playlist {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
 }
