@@ -1,6 +1,8 @@
 body {
     text-align: center;
-    background-color: rgb(49, 0, 82);
+    /* background-color: rgb(49, 0, 82); */
+    background-image: url('Images/Background.png');
+    background-size: 1920px;
     font-family: 'Source Code Pro', monospace;
     display: flex;
     flex-direction: column;
