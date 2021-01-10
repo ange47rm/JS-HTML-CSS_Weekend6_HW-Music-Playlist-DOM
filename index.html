@@ -5,32 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" type="text/css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
     <script src='js/app.js'></script>
     <title>Music Playlist</title>
 </head>
 
 <body>
     <header class='box'>
-    <h1>MUSIC PLAYLIST</h1>
-    <h2>Create your own playlist</h2>
-    <h3>Fill in the fields and click the ADD button to add a song</h3>
+    <h1>MUSIC PLAYLIST MAKER</h1>
+    <h2>Create your own playlist!</h2>
     </header>
 
     <form class='box' id='new-song-form'>
-        <label for='author'>Artist/Band
+        <label for='author'>ARTIST/BAND
         <input type='text' id="author" name='author' placeholder="Type artist/band here" required></label>
 
-        <label for='songtitle'>Song Title
+        <label for='songtitle'>SONG TITLE
         <input type='text' id='songtitle' name='songtitle' placeholder="Type song title here" required></label>
+        
+        <div id='multiple-choice'>
+        <label style="text-align:center;">GENRE</label>
+        <label>Retrowave
+        <input type="radio" id="genre" name='genre' value="Retrowave" required></label>
 
+        <label>Hip-Hop
+        <input type="radio" id="genre" name='genre' value="Hip-Hop"></label>
+
+        <label>Classic Pop
+        <input type="radio" id="genre" name='genre' value="Classic Pop"></label>
+
+        <label>Soundtrack
+        <input type="radio" id="genre" name='genre' value="Soundtrack"></label>
+
+        <label>Other
+        <input type="radio" id="genre" name='genre' value="Other"></label>
+        </div>
         <input type='submit' value='ADD'>
     </form>
 
     <section>
         <ol class='box'>
-            <li>The Notorious BIG - Suicidal Thoughts</li>
-            <li>The Midnight - Los Angeles</li>
+            <li>The Notorious BIG - Suicidal Thoughts (Hip-Hop)</li>
+            <li>The Midnight - Los Angeles (Retrowave)</li>
+            <li>Kalax - Overcome (Retrowave)</li>
+            <li>Jay Z - The Story of O.J. (Hip-Hop)</li>
+            <li>Ether - We Are All Astronauts (Soundtrack)</li>
+            <li>Rick Astley - Never Gonna Give You Up (Classic Pop)</li>
             <!-- NEW ITEM GOES HERE -->
         </ol>
         <button class='box' id='delete-button'>DELETE PLAYLIST</button>
