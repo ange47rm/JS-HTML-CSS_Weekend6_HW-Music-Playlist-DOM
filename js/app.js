@@ -15,7 +15,7 @@ const addToPlaylist = function (formInput) {                                // n
     
     const newSong = document.createElement('li');                           // (3) CREATE NEW DOM OBJECT TO CAPTURE FORM INPUT //
     
-    newSong.textContent = `${formInput.target.author.value} - ${formInput.target.songtitle.value} - (${formInput.target.genre.value})`  // (4) MANIPULATE THE NEWLY CREATED OBJECT - HERE WE DEFINE WHAT IT WILL LOOK LIKE (TEXT) //
+    newSong.textContent = `${formInput.target.author.value} - ${formInput.target.songtitle.value} (${formInput.target.genre.value})`  // (4) MANIPULATE THE NEWLY CREATED OBJECT - HERE WE DEFINE WHAT IT WILL LOOK LIKE (TEXT) //
 
     const songList = document.querySelector('ol');                          // (5) GRAB THE HTML ELEMENT WITHIN WHICH WE'LL PLACE THE NEW OBJECT ('ol') //
                                                                     

@@ -1,10 +1,10 @@
 body {
-
-    font-size: larger;
-    color: white;
-    background-image: url('Images/Background.png');
+    /* font-size: larger; */
+    color: yellow;
+    /* background-image: url('Images/Background.png'); */
+    background-color: rgb(23, 0, 61);
     background-size: 1920px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -15,6 +15,7 @@ form {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: rgb(255, 0, 255);
 }
 
 ol {
@@ -22,13 +23,18 @@ ol {
 }
 
 input, button {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     max-width: 150px;
     text-align: center;
+    cursor: pointer;
 }
 
 li {
     margin: 10px;
+}
+
+h3 {
+    color:orangered;
 }
 
 .centre {
@@ -42,7 +48,7 @@ li {
 }
 
 #playlist {
-    padding-top: 20px;
     display: flex;
     justify-content: center;
+    color: greenyellow;
 }
